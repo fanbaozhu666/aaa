@@ -1,16 +1,16 @@
 # 获取家族详情
-**请求URL：** 
-- ` http://xx.com/_API/_getAssociationInfo?userId=2&groupId=1&timestamp=14XXXXXX&sign=s15f1s56fa1sd5fsadfaxzfwewe `
+## 请求URL：
+http://xx.com/_API/_getAssociationInfo?userId=2&groupId=1&timestamp=14XXXXXX&sign=s15f1s56fa1sd5fsadfaxzfwewe `
   
-**请求方式：**
+## 请求方式：
 - GET
 
 **参数：** 
 
 |参数名|必选|类型|说明|
-|:----    |:---|:----- |-----   |
-|userId |是  |int | 用户ID    |
-|groupId|是|int|公会id|
+|:------|:---|:------|--------|
+|userId |是  |int    | 用户ID |
+|groupId|是  |int    |公会id  |
 
 **备注**
 - 如果用户不在此公会中，返回公会信息没有:
